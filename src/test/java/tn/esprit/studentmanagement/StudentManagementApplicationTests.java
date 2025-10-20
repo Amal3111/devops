@@ -19,7 +19,6 @@ class StudentManagementApplicationTests {
         List<Student> students = studentService.getAllStudents();
         assertThat(students).isNotEmpty();
     }
-
     @Test
     void contextLoads() {
     }
