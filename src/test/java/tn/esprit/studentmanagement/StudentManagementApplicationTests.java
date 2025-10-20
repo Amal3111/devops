@@ -2,7 +2,8 @@ package tn.esprit.studentmanagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-
+import tn.esprit.studentmanagement.entities.Student;
+import tn.esprit.studentmanagement.services.StudentService;
 @SpringBootTest
 class StudentManagementApplicationTests {
     @Autowired
