@@ -13,7 +13,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 class StudentManagementApplicationTests {
     @Autowired
     private StudentService studentService;
-
     @Test
     public void testGetAllStudents() {
         List<Student> students = studentService.getAllStudents();
